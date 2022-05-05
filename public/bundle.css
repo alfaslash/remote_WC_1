@@ -1,0 +1,14 @@
+/* ../../Users/roshko/AppData/Local/Temp/tmp-16536-9baELwIreDtQ/remote_WC_1/src/styles/index.css */
+main-web-components .root {
+  position: relative;
+}
+main-web-components .title {
+  color: #000099;
+}
+main-web-components .item {
+  padding: 12px;
+  display: flex;
+  background-color: #99CCFF;
+  margin-bottom: 3px;
+  font-weight: bold;
+}
