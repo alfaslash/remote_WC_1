@@ -22608,7 +22608,9 @@
       }
     }
   };
-  customElements.define("main-web-components", MainWebComponents);
+  if (!customElements.get("main-web-components")) {
+    customElements.define("main-web-components", MainWebComponents);
+  }
 })();
 /**
  * @license React
